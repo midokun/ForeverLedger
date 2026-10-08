@@ -1,0 +1,23 @@
+## Interface: 16001
+## Title: |cff33ff99ForeverLedger|r
+## Notes: TSM-grade relational market database with an Auctionator-grade scanning and posting UI for World of Warcraft: Forever. Real-time sniper, one-click undercut posting, crafting restock queue, cross-character ledger and inventory.
+## Author: ForeverLedger Project
+## Version: 1.0.0
+## AllowLoadGameType: standard, camelot
+## ExcludeLoadGameType: classic
+## SavedVariables: ForeverLedgerDB
+## SavedVariablesPerCharacter: ForeverLedgerCharDB
+## OptionalDeps: Ace3
+## X-Game: Forever
+## X-Category: Auction & Economy
+## X-Website: https://warcraft.wiki.gg/wiki/Patch_1.60.1/API_changes
+## IconTexture: Interface\Icons\INV_Misc_Coin_01
+
+embeds.xml
+Core.lua
+Database.lua
+StringParser.lua
+AuctionScan.lua
+AdvancedFeatures.lua
+Tooltips.lua
+Dashboard.lua

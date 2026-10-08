@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- LibStub ships with the addon. CallbackHandler-1.0 and AceGUI-3.0 are loaded from Libs\ when present,
+	     otherwise from the standalone Ace3 addon (## OptionalDeps: Ace3). See Libs\README.txt. -->
+	<Script file="Libs\LibStub\LibStub.lua"/>
+	<Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+	<Include file="Libs\AceGUI-3.0\AceGUI-3.0.xml"/>
+</Ui>
